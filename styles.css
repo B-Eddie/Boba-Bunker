@@ -55,3 +55,7 @@ img {
 .boba-bottom {
     padding-bottom: 6em;
 }
+
+img:hover {
+    cursor: pointer;
+}
