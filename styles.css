@@ -37,6 +37,7 @@ h4 {
 
 img {
     margin-top: 2em;
+    height: 50vh;
 }
 
 .boba-images {
@@ -45,4 +46,12 @@ img {
     gap: 5em;
     justify-content: center;
     height: 50vh;
+}
+
+.boba-images {
+    padding-bottom: 2em;
+}
+
+.boba-bottom {
+    padding-bottom: 6em;
 }
