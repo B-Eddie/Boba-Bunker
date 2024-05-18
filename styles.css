@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --red : #ffb3ba;
+    --orange : #ffdfba;	
+    --yellow : #ffffba;
+    --green : #baffc9;	
+    --blue : #bae1ff;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgba(255,223,186) 20%, rgba(186,255,201) 74%);
+}
+
+h1 {
+    color: rgb(204, 51, 66, 0.5);
+    font-size: 8em;
+    margin-top: 0.5em;
+    margin-bottom: -1em;
+}
+
+h2 {
+    margin-top: 4em;
+    color: #11ae33;
+    font-size: 4em;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+img {
+    margin-top: 2em;
+}
+
+.boba-images {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    justify-content: center;
+    height: 50vh;
+}
